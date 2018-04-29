@@ -125,9 +125,9 @@ if __name__ == '__main__':
     option_parser = OptionParser()
     option_parser.add_option('--test',
                              dest='test_mode',
-			     type='string',
+                             type='string',
                              help='test mode',
-			     default=False)
+                             default=False)
     options, args = option_parser.parse_args()
     print('testMode=%s' % options.test_mode)
     file_cleaner = FileCleaner()
