@@ -8,7 +8,7 @@ Windowsのデスクトップのファイルを掃除するツール。
 ### 実行方法
 ```python
 # 単純に実行する場合
-python3 fileCleaner.py
+python2.7 fileCleaner.py
 
 # テストモード
 # アーカイブは作成するが、デスクトップ上からファイルを削除しない。
