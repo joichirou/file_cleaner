@@ -123,8 +123,11 @@ class FileCleaner(object):
 if __name__ == '__main__':
     from optparse import OptionParser
     option_parser = OptionParser()
-    option_parser.add_option('--test', dest='test_mode', type='string',
-                             help='test mode', default=False)
+    option_parser.add_option('--test',
+                             dest='test_mode',
+			     type='string',
+                             help='test mode',
+			     default=False)
     options, args = option_parser.parse_args()
     print('testMode=%s' % options.test_mode)
     file_cleaner = FileCleaner()
